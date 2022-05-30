@@ -1,0 +1,79 @@
+@media (max-width: 950px) {
+  .signup_div {
+    display: block;
+    margin: 1rem auto;
+  }
+  .signup_div input,
+  .btn_signup {
+    margin: 0.5rem auto;
+    font-size: 1rem;
+  }
+  #enjoy .enjoy_main {
+    flex-direction: column;
+  }
+  .enjoy_content,
+  .download_content {
+    z-index: 4;
+    margin: 2rem 0;
+  }
+  .enjoy_main {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .enjoy_img {
+    height: 600px;
+    margin-top: -13%;
+  }
+  .down_image {
+    margin-top: -10%;
+  }
+  #watch .enjoy_main {
+    margin: 3rem auto;
+  }
+}
+
+@media (max-width: 660px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 0.85rem;
+  }
+  .email {
+    width: 300px;
+  }
+  .enjoy_img {
+    height: 400px;
+    margin-top: -13%;
+  }
+  .links_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .links_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #hero {
+    padding: 2%;
+  }
+  .enjoy_img {
+    height: 300px;
+    margin-top: -13%;
+  }
+  .email {
+    width: 100%;
+  }
+  .faq {
+    width: 90%;
+  }
+  .single_faq h5,
+  p {
+    font-size: 1.2rem;
+  }
+}

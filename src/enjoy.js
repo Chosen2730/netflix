@@ -5,7 +5,7 @@ import video from "./Video/vid.m4v";
 const Enjoy = () => {
   console.log(video);
   return (
-    <section className='main_background'>
+    <section className='main_background' id='enjoy'>
       <main className='enjoy_main'>
         <div className='enjoy_content enjoy_flex'>
           <h1>Enjoy on your TV.</h1>

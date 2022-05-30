@@ -4,7 +4,6 @@ import Singlefaq from "./singlefaq";
 import { IoIosArrowForward } from "react-icons/io";
 
 const Faq = () => {
-  console.log(faqs);
   return (
     <section className='main_background'>
       <div className='faq'>

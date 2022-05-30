@@ -2,8 +2,8 @@ import React from "react";
 
 const Watch = () => {
   return (
-    <section className='main_background'>
-      <main className='enjoy_main'>
+    <section className='main_background' id='watch'>
+      <main className='enjoy_main watch'>
         <div>
           <h1>Watch everywhere.</h1>
           <h3>

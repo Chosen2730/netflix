@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <main id='hero'>
       <nav id='navigation'>
-        <img src={logo} alt='logo' />
+        <img className='logo' src={logo} alt='logo' />
         <button className='signup'>Sign in</button>
       </nav>
       <div className='header'>

@@ -56,6 +56,9 @@
   }
 }
 @media (max-width: 500px) {
+  #navigation img {
+    width: 30%;
+  }
   .links_container {
     grid-template-columns: repeat(2, 1fr);
   }

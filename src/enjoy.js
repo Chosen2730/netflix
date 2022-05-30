@@ -3,7 +3,6 @@ import tv from "./Images/tv.png";
 import video from "./Video/vid.m4v";
 
 const Enjoy = () => {
-  console.log(video);
   return (
     <section className='main_background' id='enjoy'>
       <main className='enjoy_main'>

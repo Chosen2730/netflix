@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlinePlus } from "react-icons/ai";
-import { useGlobalContext } from "./context";
-import { faqs } from "./data";
 
 const Singlefaq = ({ p, quest, ans }) => {
   const [show, setShow] = useState(false);
